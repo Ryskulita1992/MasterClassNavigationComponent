@@ -52,7 +52,7 @@ class HomeFragment : Fragment() {
                 .navigate(R.id.action_mainFragment_to_exampleFragment)*/
 
             /**Kotlin*/
-            findNavController().navigate(R.id.action_mainFragment_to_exampleFragment, bundle)
+            //findNavController().navigate(R.id.action_mainFragment_to_exampleFragment, bundle)
 
             ExampleFragment.start(requireActivity(),
                 R.id.action_mainFragment_to_exampleFragment, bundle)
