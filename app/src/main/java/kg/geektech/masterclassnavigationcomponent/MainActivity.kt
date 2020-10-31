@@ -25,10 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         navController.addOnDestinationChangedListener { controller, destination, arguments ->
             when(destination.id) {
-                //R.id.exampleFragment -> bottomNav.invisible()
+                //R.id.exampleFragment -> bottomNav.gone()
             }
         }
     }
-
-
 }

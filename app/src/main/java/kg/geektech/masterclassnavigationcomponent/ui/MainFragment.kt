@@ -32,7 +32,7 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-        nonscrolalblepager_main.adapter = MainPagerAdapter(requireActivity().supportFragmentManager)
+        nonscrolalblepager_main.adapter = MainPagerAdapter(childFragmentManager)
         val navView: BottomNavigationView = view.findViewById(R.id.nav_view)
 
         navView.setOnNavigationItemSelectedListener {
